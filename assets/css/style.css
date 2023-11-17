@@ -182,3 +182,43 @@ section > h3{
     flex-direction: column;
     gap: 30px;
 }
+
+
+/* footer css*/
+
+footer{
+    margin-top: 80px;
+    background-color: #23272a;
+    height: 75vh;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.social-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.social-flex > h2{
+    width: 250px;
+    height: 100px;
+    background-color: yellow;
+}
+
+div.social-flex > div.language{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 255, 34);
+}
+
+div.social-links-flex > figure img{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 179);
+}
+
+.social-links-flex{
+    display: flex;
+    gap: 20px;
+}
+
