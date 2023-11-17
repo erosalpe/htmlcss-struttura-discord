@@ -9,7 +9,6 @@
 header{
     background-color: #3161e0;
     height: 75vh;
-    border: 1px solid lime;
 }
 
 .flex-header{
@@ -22,7 +21,6 @@ header figure img{
     width: 100px;
     height: 50px;
     background-color: red;
-    border: 1px solid yellow;
     display: block;
     
 }
@@ -31,7 +29,6 @@ header figure img{
     width: 100px;
     height: 50px;
     background-color: red;
-    border: 1px solid yellow;
     display: block;
     
 }
@@ -62,10 +59,6 @@ nav li{
     display: flex;
     justify-content: space-around;
     gap: 50px;
-}
-
-nav{
-    border: 1px solid red;
 }
 
 h1{
@@ -193,7 +186,6 @@ section > h3{
 footer{
     padding-top: 40px;
     background-color: #23272a;
-    border: 1px solid rgb(255, 0, 0);
     padding-inline: 10%;
 }
 
@@ -262,7 +254,6 @@ div.footer-logo-flex figure img{
     width: 100px;
     height: 50px;
     background-color: red;
-    border: 1px solid yellow;
     display: block;
     
 }
@@ -271,7 +262,6 @@ div.footer-logo-flex figure img{
     width: 100px;
     height: 50px;
     background-color: red;
-    border: 1px solid yellow;
     display: block;
     
 }
@@ -280,5 +270,5 @@ div.footer-logo-flex figure img{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
