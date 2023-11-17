@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Header css */
+
 header{
     background-color: #3161e0;
     height: 75vh;
@@ -99,4 +101,50 @@ p{
     width: 200px;
     height: 50px;
     background-color: white;
+}
+
+
+
+
+/* Main css */
+
+.section-flex{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-block: 100px;
+}
+
+section.section-flex figure img{
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+
+div.section-one-text h2{
+    width: 500px;
+    height: 350px;
+    background-color: grey;
+}
+
+div.section-one-text p{
+    margin-top: 30px;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(114, 52, 52);
+}
+
+.section-flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 200px;
+    padding-block: 100px;
+    background-color: lightgray;
+}
+
+section.section-flex-reverse figure img{
+    width: 500px;
+    height: 400px;
+    background-color: red;
 }
